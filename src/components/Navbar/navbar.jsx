@@ -1,5 +1,4 @@
 import React from "react";
-import {Grid} from '@mui/material';
 import './navbar.css';
 import SearchBar from '../SearchBar/search';
 import { useTheme } from '@mui/material/styles';
