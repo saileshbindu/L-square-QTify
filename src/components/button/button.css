@@ -14,6 +14,7 @@
     font-weight: 600;
     letter-spacing: 0.25px;
     margin-left: auto;
+    font-family: 'Poppins', sans-serif;
 }
 .feedbackBut button:hover{
     cursor: pointer;
