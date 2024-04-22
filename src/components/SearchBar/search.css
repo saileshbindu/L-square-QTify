@@ -20,7 +20,5 @@ display: flex;
     border-radius: 0px 8px 8px 0px;
     padding-top: 4px;
     background-color: var(--white-color);
-}
-.searchMain button:hover{
     cursor: pointer;
 }
