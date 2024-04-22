@@ -1,7 +1,6 @@
 .feedbackBut{
     display: flex;
     align-items: flex-end;
-    cursor: default;
 }
 
 .feedbackBut button{
@@ -16,4 +15,7 @@
     letter-spacing: 0.25px;
     margin-left: auto;
     font-family: 'Poppins', sans-serif;
+}
+.feedbackBut button:hover{
+    cursor: default;
 }
