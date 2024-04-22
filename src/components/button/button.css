@@ -17,5 +17,5 @@
     font-family: 'Poppins', sans-serif;
 }
 .feedbackBut button:hover{
-    cursor: default;
+    cursor: pointer;
 }
