@@ -3,7 +3,7 @@
     align-items: flex-end;
 }
 
-.feedbackBut Button{
+.feedbackBut button{
     background-color: var(--black-color);
     padding: 10px 10px;
     color: var(--green-color);
@@ -15,6 +15,6 @@
     letter-spacing: 0.25px;
     margin-left: auto;
 }
-.feedbackBut Button:hover{
+.feedbackBut button:hover{
     cursor: pointer;
 }

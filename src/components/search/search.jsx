@@ -1,4 +1,4 @@
-import { Button } from "@mui/base";
+
 import React from "react";
 import searchIcon from '../../assets/search-icon.svg';
 import './search.css';
@@ -8,9 +8,9 @@ const search = () =>{
             <input
             placeholder="Search a song of your choice"
             />
-            <Button type="submit">
+            <button type="submit">
                 <img src={searchIcon} alt="search"/>
-            </Button>
+            </button>
         </form>
     </div>)
 }

@@ -4,7 +4,7 @@ import './button.css';
 
 const FeedBackbutton = () =>{
 return(<div className="feedbackBut">
-    <Button variant="contained">Give Feedback</Button>
+    <button type="button" variant="contained">Give Feedback</button>
 </div>)
 }
 
