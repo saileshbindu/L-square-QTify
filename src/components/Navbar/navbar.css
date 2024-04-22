@@ -1,8 +1,9 @@
 .navbarBg{
-    width: 100vw;
     height: 74px;
     background-color:var(--green-color);
     align-items: center;
     padding: 0px 32px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }

@@ -11,17 +11,11 @@ const Navbar = () =>{
     const theme = useTheme();
     return(
        <div>
-        <Grid container component="nav" className="navbarBg" sx={{display: theme.palette.display}}>
-        <Grid xs={3} >
+        <nav className="navbarBg">
             <Logo />
-        </Grid>
-        <Grid xs={6}>
-        <SearchBar />
-        </Grid>
-        <Grid xs={3}>
-        <Button />
-        </Grid>
-        </Grid>
+            <SearchBar/>
+            <Button />
+        </nav>
        </div>
     )
 }
