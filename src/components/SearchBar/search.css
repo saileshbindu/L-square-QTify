@@ -15,10 +15,10 @@ display: flex;
 .searchMain button{
     width: 66px;
     height: 52px;
-    border: 1px solid var(--black-color);
     position: absolute;
     border-radius: 0px 8px 8px 0px;
     padding-top: 4px;
     background-color: var(--white-color);
-    cursor: pointer;
+    cursor: pointer;    
+    border: 1px solid var(--black-color);
 }
