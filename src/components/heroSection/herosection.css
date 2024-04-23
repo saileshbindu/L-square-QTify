@@ -3,11 +3,11 @@
     height: 270px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .heroSection h1{
     color: var(--white-color);
-    padding: 0px;
-    float: right;
+    width: 700px;
 }
 .heroSection img{
     width: 212px;

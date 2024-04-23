@@ -1,8 +1,8 @@
 import React from "react";
 import './navbar.css';
 import { useTheme } from '@mui/material/styles';
-import Logo from '../Logo/logo';
-import Button from '../Button/button';
+import Logo from '../logo/logo';
+import Button from '../button/button';
 import SearchBar from '../SearchBar/search';
 
 

@@ -15,21 +15,12 @@ const Item = styled(Paper)(({ theme }) => ({
 
 
 const HeroSection = () =>{
-    return(<div>
-        <Grid container className="heroSection">
-        <Grid container className="innerHerosection">
-        <Grid item xs={7} justifyContent="right">
-          <Item> <h1>
-           100 Thousand Songs, ad-free <br/>
-           Over thousands podcast episodes
-           </h1></Item>
-        </Grid>
-        <Grid item xs={5}>
-           <Item> <img src={phoneimg} alt="Head Phone" justifyContent="left"/></Item>
-        </Grid>
-
-        </Grid>
-        </Grid>
+    return(<div className="heroSection">
+        <h1>
+           100 Thousand Songs, ad-free Over thousands podcast episodes
+           </h1>
+           <img src={phoneimg} alt="Head Phone"/>
+        
     </div>)
 }
 
