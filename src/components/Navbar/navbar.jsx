@@ -3,7 +3,7 @@ import './navbar.css';
 import { useTheme } from '@mui/material/styles';
 import Logo from '../logo/logo';
 import Button from '../button/button';
-import SearchBar from '../SearchBar/search';
+import SearchBar from '../searchBar/search';
 
 
 const Navbar = () =>{
