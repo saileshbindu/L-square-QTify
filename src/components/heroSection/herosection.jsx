@@ -3,7 +3,7 @@ import phoneimg from '../../assets/hero_headphones.png';
 import './herosection.css';
 
 
-const HeroSection = () =>{
+const Herosection = () =>{
     return(<div className="heroSection">
         <h1>
            100 Thousand Songs, ad-free Over thousands podcast episodes
@@ -13,4 +13,4 @@ const HeroSection = () =>{
     </div>)
 }
 
-export default HeroSection
+export default Herosection
